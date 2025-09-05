@@ -13,9 +13,9 @@ e = 5
 
 # your code goes here
 
-
-print(f"a = {a}")
-print(f"b = {b}")
-print(f"c = {c}")
-print(f"d = {d}")
-print(f"e = {e}")
+#Add each to get 5
+print(f"a = {a + d}")  # 1 + 4
+print(f"b = {b + c}")  # 2 + 3
+print(f"c = {c + b}")  # 3 + 2
+print(f"d = {d + a}")  # 4 + 1
+print(f"e = {e}")      # 5

@@ -7,3 +7,11 @@ LEVEL 2 : [ Problem #2 - Pass or Fail ]
 ============================ """
 # your code goes here
 
+inputgrade = input("Input a grade in percentage (%): ")
+
+grade = float(inputgrade)
+
+if(grade>=75):
+    print("you have passed!")
+else: 
+    print("You failed, better luck next time...")

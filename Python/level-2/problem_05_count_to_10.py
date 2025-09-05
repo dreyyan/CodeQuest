@@ -4,3 +4,12 @@ LEVEL 2 : [ Problem #5 - Count to 10 ]
 ============================ """
 # your code goes here
 
+for a in range(1, 11):
+    print(f"{a}")
+
+"""a = 0
+while a <= 10:
+    a += 1
+    print(a) """
+
+    

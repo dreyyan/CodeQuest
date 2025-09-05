@@ -9,3 +9,16 @@ LEVEL 2 : [ Problem #4 - Simple Login ]
 ============================ """
 # your code goes here
 
+user_name = input("username: ") #Ask for User Input
+user_password = input("password: ")
+
+# data for password and username
+data_username = "admin"
+data_password = "12345"
+
+
+if(user_name == data_username and user_password == data_password): 
+    print(f"Login Successful")
+else:
+    print("Password and Username incorrect")
+
