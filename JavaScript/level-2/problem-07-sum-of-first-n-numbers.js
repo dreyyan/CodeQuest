@@ -12,3 +12,18 @@ Output:
 ============================ */
 // your code goes here
 
+async function sum(){
+
+    let num = document.getElementById("n").value;
+
+    let sum = 0;
+
+    for (let i = 1; i <= num; i++){
+
+        sum += i;
+
+        console.log( i + ' + ');
+    }
+
+    console.log(' = ' + sum)
+}

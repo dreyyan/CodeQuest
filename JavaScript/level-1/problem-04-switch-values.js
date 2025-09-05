@@ -13,7 +13,17 @@ let e = 5
 
 // your code goes here
 
+// add variable with other variables to change to required value
 
+d += a;
+
+c += b;
+
+b += b + a;
+
+a += a + a + a + a;
+
+// prints updated values
 console.log(`a = ${a}`)
 console.log(`b = ${b}`)
 console.log(`c = ${c}`)

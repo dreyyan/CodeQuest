@@ -24,3 +24,43 @@ LEVEL 1 : [ Problem #2 - Variable Names ]
 2. After declaring the variable names, assign (or initialize) it with an appropriate value.
 ============================ */
 // your code goes here
+
+let numOfBooks = 10;
+
+let pancitCantonPrice = 29;
+
+let firstLetterOfLName = 'R';
+
+let havePassport = true;
+
+let numOfPizzaSlices = 10;
+
+let closeParenthesis = ')';
+
+let weightOfCar = 200;
+
+let fullName = 'Michael John D. Ramos';
+
+let dollarSign = "$";
+
+let gwa = 1.4;
+
+let petName = "Midas";
+
+let numOfBooksInLib = 300;
+
+let schoolName = 'West Visayas State University';
+
+let happy = true;
+
+let gradePercentInLetterGrade = 100; 
+
+let enrollmentStatus = true;
+
+let firstTwentyDigitsOfPi = 3.14;
+
+let ideName = 'vscode';
+
+let catNumOfLives = 9;
+
+let nothing = null;

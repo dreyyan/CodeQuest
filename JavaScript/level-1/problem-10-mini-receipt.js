@@ -11,6 +11,27 @@ LEVEL 1 : [ Problem #9 - Mini Receipt ]
 ============================ */
 // your code goes here
 
+// declaration and iniatialization of vars
+let storeName = 'Edz nilagaan';
+let itemName = 'pancit';
+let quantity = 10;
+let pricePerItem = 50;
+
+//declare and initilazed to 0
+let total = 0;
+
+// assigns product of quantity and price per item to var total
+total = quantity * pricePerItem;
+
+// prints information
+console.log("======= STORE RECIEPT =======");
+console.log(`Store: ${storeName}\n`);
+console.log(`Item: ${itemName}`);
+console.log(`Quantity: ${quantity}`);
+console.log(`Price per item: ₱${pricePerItem}\n`);
+console.log(`Total: ₱${total}`);
+console.log("=============================");
+
 
 /* Example Expected Output:
 ====== STORE RECEIPT ======

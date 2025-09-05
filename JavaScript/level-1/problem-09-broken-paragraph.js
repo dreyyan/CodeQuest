@@ -5,4 +5,6 @@ Fix it by using the newline escape sequence (\n) so that each sentence
 appears on a separate line.
 ============================ */
 // your code goes here
-console.log("This is my first sentence.This is my second sentence.This is my third sentence.This is my fourth sentence.This is my last sentence.")
+
+// added newlines \n to separate paragrahps
+console.log("This is my first sentence.\nThis is my second sentence.\nThis is my third sentence.\nThis is my fourth sentence.\nThis is my last sentence.")

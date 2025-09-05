@@ -11,4 +11,5 @@ bsemcStudents = 200
 
 // your code goes here
 
-console.log(`There are {} students in CICT.`)
+//prints the sum of students by adding all vars
+console.log(`There are ${bscsStudents + bsitStudents + bsisStudents + blisStudents + bsemcStudents} students in CICT.`)

@@ -11,9 +11,19 @@ LEVEL 1 : [ Problem #8 - Weekly Allowance ]
 ============================ */
 // your code goes here
 
+// declaration and iniatialization of vars
 
-console.log(`I have a weekly allowance of ₱{}.`)
-console.log(`I spend ₱{} on food...`)
-console.log(`I spend ₱{} on transportation...`)
-console.log(`I spend ₱{} on school expenses...`)
-console.log(`So, I am left with ₱{} for my savings.`)
+let weeklyAllowance = 1000;
+
+let foodExpense = 300;
+
+let transpoExpense = 0;
+
+let schoolExpense = 200;
+
+//prints information
+console.log(`I have a weekly allowance of ${weeklyAllowance}.`)
+console.log(`I spend ${foodExpense} on food...`)
+console.log(`I spend ${transpoExpense} on transportation...`)
+console.log(`I spend ${schoolExpense} on school expenses...`)
+console.log(`So, I am left with ${weeklyAllowance - foodExpense - transpoExpense - schoolExpense} for my savings.`)

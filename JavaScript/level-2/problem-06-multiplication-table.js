@@ -5,3 +5,13 @@ LEVEL 2 : [ Problem #6 - Multiplication Table ]
 ============================ */
 // your code goes here
 
+async function multiply(){
+
+    let n = document.getElementById("num").value;
+
+for (let i = 1; i < 13 ; i++){
+
+    console.log(n * i);
+}
+
+}

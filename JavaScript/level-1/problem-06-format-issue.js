@@ -10,4 +10,8 @@ let sum = 0
 
 // your code goes here
 
-console.log(`The sum of x and y is sum.`)
+//assigns total of x and y to sum
+sum = x + y;
+
+// prints information
+console.log(`The sum of ${x} and ${y} is ${sum}.`)

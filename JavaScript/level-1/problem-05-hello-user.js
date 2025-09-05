@@ -5,5 +5,11 @@ LEVEL 1 : [ Problem #5 - Hello, User! ]
 ============================ */
 // your code goes here
 
+// declaration and iniatialization of vars
 
-console.log("Hello, " +  + ".\nYou are " +  + " years old.\nYour favorite subject is... " +  + "!")
+let name = 'Mj';
+let age = 19;
+let favSub = 'OOP';
+
+//prints information
+console.log("Hello, " + name + ".\nYou are " + age + " years old.\nYour favorite subject is... " + favSub + "!")

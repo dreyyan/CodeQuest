@@ -9,3 +9,19 @@ LEVEL 2 : [ Problem #4 - Simple Login ]
 ============================ */
 // your code goes here
 
+async function signin(){
+    
+let userName = 'Mj';
+let pass = '123';
+
+let n = document.getElementById("username").value;
+let m = document.getElementById("password").value;
+
+if (userName === n && pass === m){
+    console.log ('Log in Successful!')
+}
+else {
+    console.log ('Invalid username or Password')
+}
+}
+
