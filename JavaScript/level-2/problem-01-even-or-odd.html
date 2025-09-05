@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem #1</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter number" name="number" id="number">
+    <button type="button" onclick="checkNum()">Button</button>
+    
+    <script>
+      async function checkNum(){
+        let number = document.getElementById('number').value;
+        
+            if(number % 2 === 0){
+                console.log(`The number, ${number} is Even`)
+            }else if(number % 2 != 0){
+                console.log(`The number, ${number} is odd`)
+            }
+      }
+      
+    </script>
+</body>
+</html>

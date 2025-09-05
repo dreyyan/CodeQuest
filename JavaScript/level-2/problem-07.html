@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem #7</title>
+</head>
+<body>
+    <input type="number" id="num">
+    <button onclick="sum()">Sum</button>
+
+    <script>
+        async function sum(){
+            let num = document.getElementById("num").value;
+            let results = 0;
+            for(let i = 1; i <= num; i++){
+                results += i;
+            }
+            console.log(results);
+        }
+    </script>
+</body>
+</html>

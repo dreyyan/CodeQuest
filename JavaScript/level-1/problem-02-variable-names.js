@@ -24,3 +24,22 @@ LEVEL 1 : [ Problem #2 - Variable Names ]
 2. After declaring the variable names, assign (or initialize) it with an appropriate value.
 ============================ */
 // your code goes here
+let numOfBooks = 4;
+let pancitCantonPrice = 22.50;
+let lastNameFirstLetter = 'A';
+let numOfPizzaSlices = 8;
+let closeParenthesis = ')';
+let carWeight = 100;
+let fullName = "Kelly Ydrhan Alojepan";
+let dollarSign = '$';
+let GWA = 1.25;
+let petName = "Scooby Doo";
+let numOfBooksInLibrary = 100;
+let schoolName = "West Visayas State University";
+let isHappy = true;
+let grade = 'F';
+let isEnrolled = false;
+let pi = "3.14234567809";
+let ideName = "West Visayas State University";
+let catsNumOfLife = 8;
+let nothing = "";

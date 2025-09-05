@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem #3</title>
+</head>
+<body>
+    <input id="num1" placeholder="Enter first number" type="number">
+    <input id="num2" placeholder="Enter second number" type="number">
+    <button type="button" onclick="compareNum()">Compare</button>
+
+
+    <script>
+
+        
+
+        async function compareNum() {
+            let num1 = document.getElementById("num1").value;
+            let num2 = document.getElementById("num2").value;
+
+            if(num1 > num2){
+                console.log(`${num1}, is greater than ${num2}`)
+
+            }else if(num1 < num2){
+                console.log(`${num2}, is greater than ${num1}`)
+
+            }else{
+                console.log(`${num1} is equal to ${num2}`)
+            }
+
+
+        }
+
+
+    </script>
+     
+</body>
+</html>

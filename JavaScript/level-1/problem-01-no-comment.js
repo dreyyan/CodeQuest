@@ -6,51 +6,51 @@ Use 'single-line' comments (#) for one line.
 Use triple quotes for multi-line comments.
 ============================ */
 // Your code goes here
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence. 
 
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence.
 
-Roses are red,
+/* Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence.
 
-Roses are red,
+/*  Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-Roses are red,
+/* Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence.
 
-Roses are red,
+/* Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence.
 
-Roses are red,
+/* Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence.
 
-Roses are red,
+/* Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-Roses are red,
+/* Roses are red,
 violets are blue,
 sugar is sweet,
-and so are you
+and so are you */
 
-The quick brown fox jumps over the fence.
+// The quick brown fox jumps over the fence.

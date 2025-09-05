@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem #4</title>
+</head>
+<body>
+
+    <input type="email" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button type="button" onclick="login()">Log In</button>
+
+
+    <script>
+        async function login(){
+            const correctUsername = "username";
+            const correctPassword = "123";
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if(username === correctUsername && password === correctPassword){
+                console.log("Login successful!");
+            }else{
+                console.log("Invalid username or password");
+            }
+            
+        }
+        
+
+
+
+    </script>
+</body>
+</html>

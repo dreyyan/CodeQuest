@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem #2</title>
+</head>
+<body>
+     <input type="text" placeholder="Enter Student Grade" name="number" id="number">
+    <button type="button" onclick="checkGrade()">Button</button>
+
+<script>
+
+async function checkGrade(){
+
+let student_grade = document.getElementById('number').value;
+
+    if(student_grade >= 75 && student_grade <= 100){
+        console.log("You Passed");
+
+        
+
+
+    }else if(student_grade <= 74 ){
+        console.log("You failed, better luck next time...");
+
+    }else{
+
+        console.log("Grade can't exceed 100");
+
+    }
+
+
+
+
+
+}
+
+
+
+
+</script>
+
+
+    
+</body>
+</html>
