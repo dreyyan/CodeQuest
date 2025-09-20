@@ -7,3 +7,9 @@ LEVEL 2 : [ Problem #1 - Even or Odd ]
 ============================ """
 # your code goes here
 
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print (f"{number} is even.")
+else:
+    print (f"{number} is odd")

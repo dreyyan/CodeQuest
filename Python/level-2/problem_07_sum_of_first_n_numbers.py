@@ -12,3 +12,16 @@ Output:
 ============================ """
 # your code goes here
 
+number = int(input("Enter number: "))
+sum = 0
+for i in range(1,number+1): 
+    print(i, end=" ")
+    if number == i: # if number = 4, 4==4. print blank space after 4.
+        print("", end="")
+    else: 
+        print("+ ",end="")
+    sum += i
+
+print(f"= {sum}")
+# for the last iteration of the loop, dont print the number.
+# if last iteration dont add plus sign, else add the plus sign

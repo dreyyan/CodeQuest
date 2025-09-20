@@ -9,3 +9,13 @@ LEVEL 2 : [ Problem #4 - Simple Login ]
 ============================ """
 # your code goes here
 
+username = "JC"
+password = 12345
+
+user_name = input("Enter username: ")
+pass_word = int(input("Enter password: "))
+
+if (user_name == username and pass_word == password):
+    print("Login successful")
+else:
+    print("Invalid")

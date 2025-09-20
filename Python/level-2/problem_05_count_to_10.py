@@ -4,3 +4,6 @@ LEVEL 2 : [ Problem #5 - Count to 10 ]
 ============================ """
 # your code goes here
 
+i = 10
+for i in range(1, 11):
+    print(i)

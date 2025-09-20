@@ -7,3 +7,9 @@ LEVEL 2 : [ Problem #2 - Pass or Fail ]
 ============================ """
 # your code goes here
 
+grade_percentage = int(input("Enter grade: "))
+
+if grade_percentage >= 75:
+    print("You passed")
+else:
+    print("You failed, better luck next time...")

@@ -18,3 +18,24 @@ Grade: 85 -> B
 ============================ """
 # your code goes here
 
+for i in range(1,6):
+    grade = int(input("Enter 5 grades in percentage (%): "))
+    if grade >= 90:
+        print(f"Grade: {grade} -> A")
+        print(end="\n")
+    elif grade >= 80:
+        print(f"Grade: {grade} -> B")
+        print(end="\n")
+    elif grade >= 70:
+        print(f"Grade: {grade} -> C")
+        print(end="\n")
+    elif grade >= 60:
+        print(f"Grade: {grade} -> D")
+        print(end="\n")
+    else:
+        print(f"Grade: {grade} -> F")
+        print(end="\n")
+
+
+
+
