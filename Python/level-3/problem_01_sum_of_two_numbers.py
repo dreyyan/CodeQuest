@@ -7,6 +7,8 @@ a, b = 3, 5
 
 def sum_of_two_numbers(a, b):
     # your code goes here
+    sum = a + b
+    return sum
     pass
 
 print(f"{a} + {b} = {sum_of_two_numbers(a, b)}")

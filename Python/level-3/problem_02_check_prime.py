@@ -5,8 +5,16 @@ LEVEL 3 : [ Problem #2 - Check Prime ]
     o. Otherwise, returns `False`
 ============================ """
 def check_prime(n):
-    # your code goes here
-    pass
+      temp_number1 = 0
+      check_prime = 0
+      for temp_number1 in range (1, n + 1):
+            if (n % temp_number1 == 0):
+                  check_prime += 1
+      if (check_prime == 2):
+            return True
+      else:
+            return False
+    
 
 # TEST CASES
 print(check_prime(2))   # Output: True

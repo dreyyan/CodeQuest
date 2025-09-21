@@ -5,6 +5,14 @@ that are divisible by 3 or 5 (inclusive of n).
 ============================ """
 def fizzBuzzSum(n):
     # your code goes here
+    temp_number1 = 0
+    sum = 0
+    while (temp_number1 < n):
+        temp_number1 += 1
+        
+        if (temp_number1 % 3 == 0 or temp_number1 % 5 == 0):
+            sum += temp_number1
+    return sum
     pass
 
 # TEST CASES

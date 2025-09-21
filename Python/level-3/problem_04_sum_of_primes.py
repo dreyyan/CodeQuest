@@ -5,7 +5,30 @@ A prime number is a natural number greater than 1 that has no positive divisors 
 ============================ """
 def sumOfPrimes(n):
     # your code goes here
-    pass
+        temp_number1 = 0
+        temp_number2 = 0
+        check_prime = 0
+        sum_of_prime = 0
+
+        while (temp_number1 < n):
+            check_prime = 0
+            temp_number2 = 0
+            temp_number1 += 1
+            while (temp_number2 < temp_number1):
+                temp_number2 += 1
+                if (temp_number1 % temp_number2 == 0):
+                    check_prime += 1
+            if (check_prime == 2):
+                sum_of_prime += temp_number1
+        return sum_of_prime
+
+                        
+        
+                        
+                    
+
+
+
 
 # TEST CASES
 print(sumOfPrimes(10))  # Output: 17 (2 + 3 + 5 + 7)
