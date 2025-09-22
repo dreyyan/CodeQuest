@@ -16,7 +16,9 @@ def trailingZeros(n):
 
     for d in str(factorial):    
         digits.append(d)
+        
     lenght_of_list = len(digits)
+
     digits.reverse()
 
     while (temp_number2 < lenght_of_list): 
@@ -27,7 +29,9 @@ def trailingZeros(n):
 
         temp_number2 += 1
 
-    return number_of_0
+    answer = (f"{number_of_0} ({n}! = {factorial})")
+
+    return answer
     pass
 
 # TEST CASES

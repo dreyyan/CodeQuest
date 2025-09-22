@@ -32,5 +32,5 @@ def sumOfPrimes(n):
 
 # TEST CASES
 print(sumOfPrimes(10))  # Output: 17 (2 + 3 + 5 + 7)
-print(sumOfPrimes(5))   # Output: 5 (2 + 3)
+print(sumOfPrimes(5))   # Output: 10 (2 + 3 + 5)
 print(sumOfPrimes(2))   # Output: 2

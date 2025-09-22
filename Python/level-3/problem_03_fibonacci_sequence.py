@@ -4,7 +4,18 @@ Define a function that takes an integer `n` and returns a
 list of the first `n` numbers in the fibonacci sequence.
 ============================ """
 def fibonacci_sequence(n):
-    # your code goes here
+    temp_number1 = 0
+    temp_number2 = 0
+    temp_number3 = 1
+    temp_number4 = 0
+    set = []
+    while (temp_number1 < n):
+        temp_number1 += 1
+        set.append(temp_number2)
+        temp_number2 += temp_number3
+        temp_number3 = temp_number4
+        temp_number4 = temp_number2
+    return set
     pass
 
 # TEST CASES
