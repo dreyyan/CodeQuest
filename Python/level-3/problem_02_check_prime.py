@@ -6,7 +6,9 @@ LEVEL 3 : [ Problem #2 - Check Prime ]
 ============================ """
 def check_prime(n):
       temp_number1 = 0
+
       check_prime = 0
+      
       for temp_number1 in range (1, n + 1):
             if (n % temp_number1 == 0):
                   check_prime += 1

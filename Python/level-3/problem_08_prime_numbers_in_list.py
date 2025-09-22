@@ -5,6 +5,22 @@ returns the list of prime numbers from 1 to `n`.
 ============================ """
 def prime_in_list(nums):
     # your code goes here
+    temp_number1 = 0
+    temp_number2 = 0
+    check_prime = 0
+    list_of_prime = []
+
+    while (temp_number1 < nums):
+        check_prime = 0
+        temp_number2 = 0
+        temp_number1 += 1
+        while (temp_number2 < temp_number1):
+            temp_number2 += 1
+            if (temp_number1 % temp_number2 == 0):
+                check_prime += 1
+        if (check_prime == 2):
+            list_of_prime.append(temp_number1)
+    return list_of_prime
     pass
 
 # TEST CASES
