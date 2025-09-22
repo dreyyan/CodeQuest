@@ -10,4 +10,5 @@ sum = 0
 
 # your code goes here
 
-print(f"The sum of x and y is sum.")
+sum = x + y # Calculate sum
+print(f"The sum of", x ,"and", y , "is", sum) #Print Output

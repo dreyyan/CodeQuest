@@ -5,4 +5,4 @@ Fix it by using the newline escape sequence (\n) so that each sentence
 appears on a separate line.
 ============================ """
 # your code goes here
-print("This is my first sentence.This is my second sentence.This is my third sentence.This is my fourth sentence.This is my last sentence.")
+print("This is my first sentence.\nThis is my second sentence.\nThis is my third sentence.\nThis is my fourth sentence. \nThis is my last sentence.") #placed /n to separate each sentence into a new line

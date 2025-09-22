@@ -11,4 +11,6 @@ bsemc_students = 200
 
 # your code goes here
 
-print(f"There are {} students in CICT.")
+
+total_students_add = bscs_students + bsit_students + bsis_students + blis_students + bsemc_students # Calculate total students using addition
+print(f"There are total_students_add students in CICT.") #prints total students

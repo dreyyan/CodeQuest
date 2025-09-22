@@ -5,3 +5,11 @@ LEVEL 2 : [ Problem #6 - Multiplication Table ]
 ============================ """
 # your code goes here
 
+num = int(input("Input any number: "))# Ask User for Input
+
+for a in range (1, 13):#Condition for loop
+ print(f"{num} * {a} = {num * a}")
+
+
+
+
