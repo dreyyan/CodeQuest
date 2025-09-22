@@ -4,6 +4,8 @@
 # ============================
 def is_divisible(a, b):
     # your code goes here
+    return a % b == 0
+   
     pass
 
 # TEST CASES
