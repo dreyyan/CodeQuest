@@ -7,6 +7,7 @@ def isPerfectNumber(n):
     # your code goes here
     list_of_divisibles = []
     temp_number2 = 0
+    array = []
 
     for temp_number1 in range (1, n):
         
@@ -17,10 +18,13 @@ def isPerfectNumber(n):
     sum = 0
 
     while (temp_number2 < lenght):
+        array.append(int(list_of_divisibles[temp_number2]))
         sum += int(list_of_divisibles[temp_number2])
         temp_number2 += 1
 
     if (sum == n):
+        print(*array, sep= " + ", end = " ") 
+        print(" = " + str(sum))
         return True
     else:
         return False

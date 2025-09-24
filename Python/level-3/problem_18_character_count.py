@@ -4,9 +4,41 @@
 # ============================
 def char_count(text):
     # your code goes here
-    pass
+    list = []
+    first = 0
+    second = 0
+    duplicates = 0
+    dictionary = {}
+
+    for char in text:
+        list.append(char)
+        
+    sort = sorted(list)
+    lenght = len(list)
+
+    while (first < lenght):
+
+        second = 0
+
+        while (second < lenght):
+
+            if (sort[first] == sort[second]):
+
+                duplicates += 1
+                
+            second += 1
+
+        dictionary[sort[first]] = duplicates
+
+        duplicates = 0
+
+        first += 1
+    return dictionary
+        
+    
 
 # TEST CASES
 print(char_count("hello"))    # Output: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
 print(char_count("aaa"))      # Output: {'a': 3}
 print(char_count(""))         # Output: {}
+

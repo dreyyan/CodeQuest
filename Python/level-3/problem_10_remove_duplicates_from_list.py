@@ -6,7 +6,7 @@ the unique elements.
 def remove_duplicates_from_list(nums):
     # your code goes here
     temp_number1 = 0
-    temp_number2 = 1
+    temp_number2 = 0
     lenght = len(nums)
 
     while (temp_number1 < lenght - 1):

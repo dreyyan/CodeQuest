@@ -4,6 +4,11 @@
 # ============================
 def rotate_list(lst, k):
     # your code goes here
+    temp_number = 0
+    while (temp_number < k):
+        lst.reverse()
+        temp_number += 1
+    return lst    
     pass
 # TEST CASES
 print(rotate_list([1, 2, 3, 4], 1))    # Output: [4, 1, 2, 3]

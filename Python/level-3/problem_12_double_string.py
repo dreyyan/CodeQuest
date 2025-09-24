@@ -4,6 +4,7 @@
 # ============================
 def double_string(text):
     # your code goes here
+    return text + text 
     pass
 
 # TEST CASES

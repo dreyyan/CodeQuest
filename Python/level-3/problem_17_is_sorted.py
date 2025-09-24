@@ -4,7 +4,12 @@
 # ============================
 def is_sorted(nums):
     # your code goes here
-    pass
+        if (nums == sorted(nums)):
+                return True
+        else:
+                return False
+    
+        
 
 # TEST CASES
 print(is_sorted([1, 2, 3]))     # Output: True
