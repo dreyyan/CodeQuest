@@ -5,6 +5,15 @@ and returns the number of times the character appears.
 ============================ """
 def count_occurrences(string, char):
     # your code goes here
+    duplicate = 0
+    
+    for letters in string:
+
+        if char in letters:
+            duplicate += 1
+
+    return duplicate
+
     pass
 
 # TEST CASES

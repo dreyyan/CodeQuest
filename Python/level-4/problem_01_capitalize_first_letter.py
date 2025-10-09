@@ -5,6 +5,7 @@ the first letter capitalized.
 ============================ """
 def capitalize_first(string):
     # your code goes here
+    return string.capitalize()
     pass
 
 # TEST CASES
