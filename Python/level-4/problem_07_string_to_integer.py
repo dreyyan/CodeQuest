@@ -6,6 +6,7 @@ Return 0 if no valid number is found, and clamp to 32-bit integer range.
 ============================ """
 def myAtoi(s):
     # your code goes here
+            
     pass
 
 # TEST CASES

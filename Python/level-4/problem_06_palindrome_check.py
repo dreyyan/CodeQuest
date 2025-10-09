@@ -6,7 +6,13 @@ Define a function that takes a string:
 ============================ """
 def palindrome_check(string):
     # your code goes here
-    pass
+    uppercase = string.upper()
+    if (uppercase == uppercase[::-1]):
+        return True
+    else:
+        return False
+            
+            
 
 # TEST CASES
 print(palindrome_check("racecar"))  # Output: True

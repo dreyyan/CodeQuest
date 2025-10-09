@@ -5,6 +5,12 @@ the # of vowels, and displays the vowel count.
 ============================ """
 def count_vowels(string):
     # your code goes here
+    vowels = "aeiouAEIOU"
+    number_of_vowels = 0
+    for char in string:
+        if char in vowels:
+            number_of_vowels += 1
+    return number_of_vowels
     pass
 
 # TEST CASES

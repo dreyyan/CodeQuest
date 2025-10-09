@@ -5,6 +5,7 @@ the string in reverse order.
 ============================ """
 def reverse_string(string):
     # your code goes here
+    return string[::-1]
     pass
 
 # TEST CASES
