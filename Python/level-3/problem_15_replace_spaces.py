@@ -4,8 +4,8 @@
 # ============================
 def replace_spaces(text):
     # your code goes here
-        new = text.replace(" ", "_")
-        return new
+        new_text =text.replace(" ", "_")
+        return new_text
 
 # TEST CASES
 print(replace_spaces("hello world"))       # Output: "hello_world"

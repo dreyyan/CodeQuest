@@ -13,7 +13,6 @@ def char_count(text):
     for char in text:
         list.append(char)
         
-    sort = sorted(list)
     lenght = len(list)
 
     while (first < lenght):
@@ -22,13 +21,14 @@ def char_count(text):
 
         while (second < lenght):
 
-            if (sort[first] == sort[second]):
+            if (list[first] == list[second]):
 
                 duplicates += 1
-                
-            second += 1
+                second += 1
+            else: 
+                second += 1
 
-        dictionary[sort[first]] = duplicates
+        dictionary[list[first]] = duplicates
 
         duplicates = 0
 

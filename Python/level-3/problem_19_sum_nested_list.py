@@ -4,6 +4,11 @@
 # ============================
 def sum_nested_list(nested):
     # your code goes here
+    sum = 0
+    for list1 in nested:
+        for list2 in list1:
+            sum += list2
+    return sum 
     pass
 
 # TEST CASES
